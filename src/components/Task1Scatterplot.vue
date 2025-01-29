@@ -4,6 +4,10 @@
     <p>Analyze the scatterplot matrix below to find the outlier. The villain is the outlier!</p>
     <div id="scatterplot"></div>
   </div>
+  <div class="navigation">
+      <button @click="$router.push('/Daten-Krimi/')">Back to Landing Page</button>
+      <button @click="$router.push('/Daten-Krimi/task2')">Next Task</button>
+  </div>
 </template>
 
 <script>

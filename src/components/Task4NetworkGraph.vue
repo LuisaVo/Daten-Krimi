@@ -4,6 +4,10 @@
     <p>Analyze the network graph below to find the main switch with the most connections.</p>
     <div id="network"></div>
   </div>
+  <div class="navigation">
+      <button @click="$router.push('/Daten-Krimi/')">Back to Landing Page</button>
+      <button @click="$router.push('/Daten-Krimi/task3')">Previous Task</button>
+  </div>
 </template>
 
 <script>

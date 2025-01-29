@@ -4,6 +4,11 @@
     <p>Compare the skills of the villain with potential accomplices. Find the best match to cover all skill dimensions!</p>
     <canvas id="radarChart"></canvas>
   </div>
+  <div class="navigation">
+      <button @click="$router.push('/Daten-Krimi/')">Back to Landing Page</button>
+      <button @click="$router.push('/Daten-Krimi/task1')">Previous Task</button>
+      <button @click="$router.push('/Daten-Krimi/task3')">Next Task</button>
+  </div>
 </template>
 
 <script>
