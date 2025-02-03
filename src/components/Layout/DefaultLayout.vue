@@ -13,7 +13,7 @@ components: {
 <template>
     <div class="layout">
         <NavComponent />
-        <main class="w3-margin-top">
+        <main class="w3-content">
             <slot />
         </main>
         <FooterComponent />

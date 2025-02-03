@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import LandingPage from '@/components/LandingPage.vue';
-import Task1Scatterplot from '@/components/Task1Scatterplot.vue';
-import Task2SpiderChart from '@/components/Task2SpiderChart.vue';
-import Task3Heatmap from '@/components/Task3Heatmap.vue';
-import Task4NetworkGraph from '@/components/Task4NetworkGraph.vue';
-import Task from '@/components/Tasks/DefaultTask.vue';
+import Task1Scatterplot from '@/components/Tasks/Task1Scatterplot.vue';
+import Task2SpiderChart from '@/components/Tasks/Task2SpiderChart.vue';
+import Task3Heatmap from '@/components/Tasks/Task3Heatmap.vue';
+import Task4NetworkGraph from '@/components/Tasks/Task4NetworkGraph.vue';
+import Task from '@/components/Tasks/Task1Scatterplot.vue';
 
 const routes = [
     { path: '/Daten-Krimi/', component: LandingPage },
