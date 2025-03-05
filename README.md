@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Automatically build and syn with git
+
+```sh
+npm run deploy
+```
