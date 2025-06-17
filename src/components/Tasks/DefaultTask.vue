@@ -6,7 +6,8 @@
             <slot name="description"></slot><!-- for the description of the task -->
         </div>
         <div class="w3-third w3-center">
-            <p class="w3-text-grey">Explain how to use it.</p>
+            <p class="w3-text-grey">
+            <slot name="use"></slot><!-- for explanation how to use it --></p>
         </div>
     
         <div class="w3-twothird w3-center">
